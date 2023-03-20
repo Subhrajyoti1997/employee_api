@@ -37,6 +37,12 @@ public class EmployeeServiceImpl implements EmployeeService{
 		empolyeeRepo.deleteById(id);
 	}
 
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'delete'");
+	}
+
 	
 
 }
